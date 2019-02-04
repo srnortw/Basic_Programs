@@ -1,0 +1,5 @@
+input('Hello I made this program for learn your age.Ok lets start with enter a key :)')
+birth_of_year=input("please enter your year")
+current_year=input('what year is this year')
+age=int(current_year)-int(birth_of_year)
+print("Your age is {}".format(age))
