@@ -1,15 +1,14 @@
-gate=1
-while(gate==1):
-    num=input('Please enter a Number')
+gate=True
+while(gate==True):
+    num=input('Please enter a Number:')
     num=int(num)
-    if (num<99):
+    if (num<=99):
         if(num>10):
-            gate=0
+            gate=False
 
 
 fir_dig=num%10
-sec_dig=(num-fir_dig)/10
-
+sec_dig=(num-fir_dig)//10
 
 
 if (fir_dig==7):
