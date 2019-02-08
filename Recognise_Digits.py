@@ -3,7 +3,7 @@ while(gate==True):
     num=input('Please enter a Number:')
     num=int(num)
     if (num<=99):
-        if(num>10):
+        if(num>=10):
             gate=False
 
 
