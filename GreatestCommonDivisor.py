@@ -11,11 +11,11 @@ elif(num2<num1):
 else:
     small_num=num1 #You can write num2 equals small_num
 
-for a in range(small_num,1,-1):
-    if(num1%a==0):
-        if(num2%a==0):
-            if(gcd<a):
-                gcd=a
+for index in range(small_num,1,-1):
+    if(num1%index==0):
+        if(num2%index==0):
+            if(gcd<index):
+                gcd=index
                 print(f'Greatest Common Divisor is {gcd}')
 
 if(gcd==1):

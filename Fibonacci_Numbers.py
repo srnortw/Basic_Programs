@@ -7,8 +7,8 @@ my_quantity=int(my_quantity)
 my_index_of_number=int(my_index_of_number)
 
 
-for a in range(0,my_quantity-2):
-    new_number=fibonacci_number[a]+fibonacci_number[a+1]
+for index in range(0,my_quantity-2):
+    new_number=fibonacci_number[index]+fibonacci_number[index+1]
     fibonacci_number.append(new_number)
 
 
