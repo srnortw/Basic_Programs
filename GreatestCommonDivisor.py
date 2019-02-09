@@ -9,7 +9,7 @@ if(num2>num1):
 elif(num2<num1):
     small_num=num2
 else:
-    small_num=num1 #You can write m equals num2
+    small_num=num1 #You can write num2 equals small_num
 
 
 for a in range(small_num,1,-1):
