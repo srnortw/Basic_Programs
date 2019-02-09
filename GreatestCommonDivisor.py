@@ -11,7 +11,6 @@ elif(num2<num1):
 else:
     small_num=num1 #You can write num2 equals small_num
 
-
 for a in range(small_num,1,-1):
     if(num1%a==0):
         if(num2%a==0):
