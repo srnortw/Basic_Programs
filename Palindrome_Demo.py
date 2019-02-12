@@ -1,4 +1,4 @@
-Palindrome=input('Please enter a palindrome')
+Palindrome=input('Please enter a palindrome:')
 Palindrome=Palindrome.lower()
 
 
