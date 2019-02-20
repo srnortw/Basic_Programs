@@ -6,6 +6,7 @@ input("Note:Way of between 2 cities is straight.\nIf you want to start enter a k
 
 question=input("What is your units of inputs km or m ? :")
 question1=input("What is your units of result km or m ? :")
+
 question=question.lower()
 question1=question1.lower()
 

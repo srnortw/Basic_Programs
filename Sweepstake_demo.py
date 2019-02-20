@@ -14,4 +14,3 @@ while (index<quantity):
 
 print(numbers)
 print(mynumber)
-
