@@ -4,7 +4,7 @@ mynumber=random.randint(100,1000)
 quantity=input('enter quantity:')
 quantity=int(quantity)
 
-numbers=quantity*[10000]
+numbers=quantity*[mynumber+1]
 index=0
 
 while (index<quantity):
