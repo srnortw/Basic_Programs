@@ -23,5 +23,5 @@ print(min_number(1,10,1))
 
 #I find minumum value of divided by your array.
 #Your array is evenly spaced
-#First of All you should enter start finish points and increment.
-#İf you increase distance of your array.Program calculate slowly.
+#First of all you should enter start finish points and increment.
+#İf you increase distance of your array.Program calculates slowly.
